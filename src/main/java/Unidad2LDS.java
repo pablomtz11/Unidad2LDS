@@ -25,6 +25,8 @@ public class Unidad2LDS {
             System.out.println("| 6. Principio de Aufbau             |");
             System.out.println("| 7. Tabulación de números cuánticos |");
             System.out.println("| 0. Volver al menú de unidades      |");
+            System.out.println("--------------------------------------");
+            System.out.println("|Selecciona una opcion:              |");
             System.out.println("======================================");
             opcionSubtema = sc.nextInt();
 
@@ -61,7 +63,7 @@ public class Unidad2LDS {
             System.out.println("| 6. Bibliografía                                       |");
             System.out.println("| 0. Salir                                                |");
             System.out.println("------------------------------------------");
-            System.out.println("|Selecciona una opcion                   |");
+            System.out.println("|Selecciona una opcion:                   |");
             System.out.println("===========================================================");
             opcion = sc.nextInt();
 
@@ -339,42 +341,36 @@ public class Unidad2LDS {
                 case 1:
                     limpiarPantalla();
                     System.out.println("=====================================================================================================================");
-                    System.out.println("|                                                  FENÓMENOS FÍSICOS                                                |");
+                    System.out.println("|                                             1) Concepto de electrón diferencial:                                               |");
                     System.out.println("=====================================================================================================================");
-                    System.out.println("|Un fenómeno físico es aquel en el que no cambia la composición de la materia, solo su forma, estado o apariencia.  |");
-                    System.out.println("|Ejemplos:                                                                                                          |");
-                    System.out.println("|1. Derretimiento del hielo                                                                                         |");
-                    System.out.println("|2. Evaporación del agua al hervir                                                                                  |");
-                    System.out.println("|3. Romper un vaso                                                                                                  |");
-                    System.out.println("|4. Cortar papel                                                                                                    |");
-                    System.out.println("|5. Inflar un globo                                                                                                 |");
+                    System.out.println("|El electrón diferencial es el último electrón que se agrega en la configuración electrónica de un átomo.  |");
+                    System.out.println("|Determina las propiedades químicas más importantes del elemento.                                                                                                         |");
+                    System.out.println("|Se encuentra en el orbital de mayor energía del subnivel incompleto.                                                                                     |");
                     System.out.println("=====================================================================================================================");
                     esperarTecla();
                     break;
                 case 2:
                     limpiarPantalla();
                     System.out.println("=====================================================================================================================");
-                    System.out.println("|                                                  FENÓMENOS QUÍMICOS                                               |");
+                    System.out.println("|                                       2) Ejemplo: Tecnecio (Tc, Z=43)                                             |");
                     System.out.println("=====================================================================================================================");
-                    System.out.println("|Un fenómeno químico es aquel en el que una o más sustancias se transforman en otras diferentes.                    |");
-                    System.out.println("|Ejemplos:                                                                                                          |");
-                    System.out.println("|1. La oxidación de un clavo                                                                                        |");
-                    System.out.println("|2. La cocción de los alimentos                                                                                     |");
-                    System.out.println("|3. La combustión de la madera                                                                                      |");
-                    System.out.println("|4. La fermentación del pan o del vino                                                                              |");
-                    System.out.println("|5. El deterioro o descomposición de frutas                                                                         |");
+                    System.out.println("|Configuración electrónica: [Kr] 5s² 4d^10                   |");
+                    System.out.println("|El electrón diferencial es el último en el subnivel 4d                                                                                                      |");
+                    System.out.println("|Número cuántico principal n = 4                                                                                      |");
+                    System.out.println("|Número cuántico secundario l = 2 (subnivel d)                                                                                  |");
+                    System.out.println("|Número cuántico magnético m = depende del orbital ocupado (-2 a +2)                                                                                     |");
+                    System.out.println("|Spin s = +1/2 (primer electrón en orbital vacío)                                                                             |");
                     System.out.println("=====================================================================================================================");
                     esperarTecla();
                     break;
                 case 3:
                     limpiarPantalla();
                     System.out.println("============================================================================================================================");
-                    System.out.println("|                                                        EJEMPLOS                                                          |");
+                    System.out.println("|                                      3) Regla de Hund y spin:                                                        |");
                     System.out.println("============================================================================================================================");
-                    System.out.println("|FENÓMENOS FÍSICOS:                                                                                                        |");
-                    System.out.println("|1. Derretimiento del hielo 2. Evaporación del agua 3. Romper un vaso 4. Cortar papel 5. Inflar un globo                   |");
-                    System.out.println("|FENÓMENOS QUÍMICOS:                                                                                                       |");
-                    System.out.println("|1. Oxidación de un clavo 2. Cocción de alimentos 3. Combustión de la madera 4. Fermentación 5. Deterioro de frutas        |");
+                    System.out.println("|La regla de Hund indica que los electrones se colocan de manera que ocupen orbitales vacíos del subnivel antes de aparearse.                                                                                                     |");
+                    System.out.println("|Esto significa que cada orbital del subnivel 4d tiene un electrón con spin positivo primero.                  |");
+                    System.out.println("|El spin del electrón diferencial es positivo (+1/2).                                                                                                    |");
                     System.out.println("============================================================================================================================");
                     esperarTecla();
                     break;
@@ -383,9 +379,9 @@ public class Unidad2LDS {
                     System.out.println("========================================================================================================================");
                     System.out.println("|                                                       BIBLIOGRAFÍAS                                                  |");
                     System.out.println("========================================================================================================================");
-                    System.out.println("|1. Chang, Raymond. Química. McGraw-Hill Education, 2010.                                                              |");
-                    System.out.println("|2. Brown, Theodore L., LeMay, H. Eugene, y Bursten, Bruce E. Química: La Ciencia Central. Pearson Educación, 2012.    |");
-                    System.out.println("|3. Enciclopedia Britannica. Artículo: Physical and Chemical Changes.                                                  |");
+                    System.out.println("|Chang, R. (Química General). McGraw-Hill, 2010.                                                           |");
+                    System.out.println("|Brown, T. L., LeMay, H. E., Bursten, B. E. (Química: La Ciencia Central). Pearson, 2012.  |");
+                    System.out.println("|Atkins, P., & Jones, L. (Principios de Química). Oxford, 2010.                                                |");
                     System.out.println("========================================================================================================================");
                     esperarTecla();
                     break;
@@ -405,86 +401,119 @@ public class Unidad2LDS {
         do {
             limpiarPantalla();
             System.out.println("========================================================");
-            System.out.println("|             ElEMENTO, COMPUESTO Y MEZCLA             |");
+            System.out.println("|             MODELOS ATÓMICOS           |");
             System.out.println("========================================================");
-            System.out.println("|1. Clasificación de sustancias puras                  |");
-            System.out.println("|2. Concepto de elemento químico                       |");
-            System.out.println("|3. Concepto de compuesto                              |");
-            System.out.println("|4. Diferencias entre elemento y compuesto             |");
-            System.out.println("|5. Qué es una mezcla                                  |");
-            System.out.println("|6. Qué es una mezcla homogénea                        |");
-            System.out.println("|7. Qué es una mezcla heterogénea                      |");
+            System.out.println("|1. Demócrito                  |");
+            System.out.println("|2. Dalton                  |");
+            System.out.println("|3. Thomson                              |");
+            System.out.println("|4. Rutherford             |");
+            System.out.println("|5. Bohr                                  |");
+            System.out.println("|6. Sommerfeld                        |");
+            System.out.println("|7. Schrödinger y Dirac-Jordan                      |");
             System.out.println("|8. Bibliografía                                       |");
             System.out.println("|0. Salir                                              |");
             System.out.println("--------------------------------------------------------");
-            System.out.println("|Elige el número de la pregunta que deseas consultar:  |");
+            System.out.println("|Elige una opción:  |");
             System.out.println("========================================================");
             opcion = sc.nextInt();
             switch (opcion) {
                 case 1:
                     limpiarPantalla();
-                    System.out.println("\n");
-                    System.out.println("Las sustancias puras se clasifican en elementos y compuestos.");
+                    System.out.println("==========================================");
+                    System.out.println("|        1) Demócrito (460-370 a.C.)                          |");
+                    System.out.println("=============================================");
+                    System.out.println("| - Propuso que la materia está formada por partículas indivisibles llamadas átomos.                                                               |");
+                    System.out.println("| - No tenía evidencia experimental, era filosófico.                                                         |");
+                    System.out.println("| - Introdujo la idea de que los átomos se combinan para formar la materia.                                                                       |");
+                    System.out.println("=====================================================");
                     esperarTecla();
                     break;
                 case 2:
                     limpiarPantalla();
-                    System.out.println("\n");
-                    System.out.println("Un elemento químico es una sustancia formada por átomos del mismo tipo");
-                    System.out.println("que no pueden descomponerse por métodos químicos comunes.");
+                    System.out.println("==========================================");
+                    System.out.println("|     2) Dalton (1803-1808)                             |");
+                    System.out.println("=============================================");
+                    System.out.println("| - La materia está formada por átomos indivisibles e indestructibles.                                                               |");
+                    System.out.println("| - Todos los átomos de un elemento son iguales.                                                          |");
+                    System.out.println("| - Los compuestos se forman por combinación de átomos en proporciones fijas.                                                                       |");
+                    System.out.println("=====================================================");
                     esperarTecla();
                     break;
                 case 3:
                     limpiarPantalla();
-                    System.out.println("\n");
-                    System.out.println("Un compuesto es una sustancia formada por la unión química");
-                    System.out.println("de dos o más elementos en proporciones definidas.");
+                    System.out.println("==========================================");
+                    System.out.println("|           3) Thomson (1904)                       |");
+                    System.out.println("=============================================");
+                    System.out.println("| - Conocido como pudín de pasas.                                                               |");
+                    System.out.println("| - Átomo es una esfera cargada positivamente con electrones incrustados.                                                          |");
+                    System.out.println("| - Explica la neutralidad eléctrica del átomo.                                                                       |");
+                    System.out.println("=====================================================");
                     esperarTecla();
                     break;
                 case 4:
                     limpiarPantalla();
-                    System.out.println("\n");
-                    System.out.println("Diferencias entre elemento y compuesto:");
-                    System.out.println("- El elemento está formado por un solo tipo de átomo, el compuesto por varios.  ");
-                    System.out.println("- El elemento no se puede descomponer químicamente, el compuesto sí.");
+                    System.out.println("==========================================");
+                    System.out.println("|      4) Rutherford (1911)                            |");
+                    System.out.println("=============================================");
+                    System.out.println("| - Experimento de la lámina de oro.                                                               |");
+                    System.out.println("| - Átomo con núcleo pequeño, denso y positivo.                                                          |");
+                    System.out.println("| - Electrones giran alrededor del núcleo, el resto es espacio vacío.                                                                       |");
+                    System.out.println("=====================================================");
                     esperarTecla();
                     break;
                 case 5:
                     limpiarPantalla();
-                    System.out.println("\n");
-                    System.out.println("Una mezcla es la combinación física de dos o más sustancias");
-                    System.out.println("que conservan sus propiedades originales.");
+                    System.out.println("==========================================");
+                    System.out.println("|             5) Bohr (1913)             |");
+                    System.out.println("=============================================");
+                    System.out.println("|- Electrones giran en órbitas circulares con niveles de energía definidos.                                                               |");
+                    System.out.println("|- Explica los espectros de emisión del hidrógeno.                                                           |");
+                    System.out.println("|- Introduce cuantización de energía.                                                                        |");
+                    System.out.println("=====================================================");
                     esperarTecla();
                     break;
                 case 6:
                     limpiarPantalla();
-                    System.out.println("\n");
-                    System.out.println("Una mezcla homogénea es aquella en la que sus componentes no se distinguen");
-                    System.out.println("a simple vista y forman una sola fase, como el agua con sal.");
+                    System.out.println("==========================================");
+                    System.out.println("|     6) Sommerfeld (1916)                             |");
+                    System.out.println("=============================================");
+                    System.out.println("| - Modificación del modelo de Bohr.                                                              |");
+                    System.out.println("| - Introdujo órbitas elípticas además de circulares.                                                          |");
+                    System.out.println("| - Considera subniveles (s, p, d, f) para explicar espectros más precisos.                                                                       |");
+                    System.out.println("=====================================================");
                     esperarTecla();
                     break;
                 case 7:
                     limpiarPantalla();
-                    System.out.println("\n");
-                    System.out.println("Una mezcla heterogénea es aquella en la que se pueden observar sus componentes");
-                    System.out.println("a simple vista, como agua con aceite o granito.");
+                    System.out.println("==========================================");
+                    System.out.println("|      7) Schrödinger y Dirac-Jordan                            |");
+                    System.out.println("=============================================");
+                    System.out.println("| - Schrödinger desarrolló la ecuación de onda que describe la probabilidad de encontrar electrones.                                                               |");
+                    System.out.println("| - Introduce orbitales y números cuánticos (n, l, m, s).                                                          |");
+                    System.out.println("| - Dirac y Jordan aportaron la formulación de la mecánica cuántica matricial.                                                                       |");
+                    System.out.println("| - Juntos permitieron predecir el comportamiento de electrones en átomos complejos y el spin.                                                                       |");
+                    System.out.println("| - Reemplazan órbitas fijas por modelos probabilísticos.                                                                       |");
+                    System.out.println("=====================================================");
                     esperarTecla();
                     break;
                 case 8:
                     limpiarPantalla();
-                    System.out.println("\n");
-                    System.out.println("8. Bibliografía");
-                    System.out.println("1.Zumdahl, Steven S., Zumdahl, Susan A. Chemistry: An Atoms First Approach. 3ra edición. Cengage Learning, 2016.");
-                    System.out.println("\n");
-                    System.out.println("2.Brown, Theodore L., LeMay, H. Eugene, Bursten, Bruce E., Murphy, Catherine. Química: La Ciencia Central. 14ª edición. Pearson Educación, 2018.");
-                    System.out.println("\n");
-                    System.out.println("3.Petrucci, Ralph H., Herring, F. Geoffrey, Madura, Jeffry D., Bissonnette, Carey. Química General: Principios y Aplicaciones Modernas. 11ª edición. Pearson, 2017.");
+                    System.out.println("==========================================");
+                    System.out.println("|          === Bibliografía ===          |");
+                    System.out.println("=============================================");
+                    System.out.println("| Chang, R. (Química General). McGraw-Hill, 2010.                                                               |");
+                    System.out.println("| Brown, T. L., LeMay, H. E., Bursten, B. E. (Química: La Ciencia Central). Pearson, 2012.                                                          |");
+                    System.out.println("| Atkins, P., & Jones, L. (Principios de Química). Oxford, 2010.                                                                       |");
+                    System.out.println("| Tipler, P. A., & Mosca, G. (Física para Ciencias e Ingeniería).                                                                       |");
+                    System.out.println("| Einstein, A. (Teoría de la Relatividad).                                                                       |");
+                    System.out.println("=====================================================");
                     esperarTecla();
                     break;
                 case 0:
                     System.out.println("\n");
                     break;
                 default:
+                    System.out.println("Opción no válida.");
             }
         }  while(opcion != 0);
 
@@ -495,37 +524,243 @@ public class Unidad2LDS {
         do {
             limpiarPantalla();
             System.out.println("=======================================");
-            System.out.println("|        |");
+            System.out.println("|   ========== MENÚ PRINCIPAL ==========     |");
             System.out.println("=======================================");
-            System.out.println("|1.                 |");
-            System.out.println("|2.                |");
-            System.out.println("|3.                         |");
-            System.out.println("|4.                       |");
-            System.out.println("|0.                             |");
+            System.out.println("|1. Mecánica cuántica y orbitales                 |");
+            System.out.println("|2. Bibliografía                |");
+            System.out.println("|0. Salir                             |");
             System.out.println("---------------------------------------");
-            System.out.println("|              |");
+            System.out.println("| Elige una opción:             |");
             System.out.println("=======================================");
             opcion = sc.nextInt();
             switch (opcion) {
                 case 1:
+                    System.out.println("=======================================");
+                    System.out.println("|   MECÁNICA CUÁNTICA Y ORBITALES   |");
+                    System.out.println("=======================================");
+                    System.out.println("|1. Principio de Incertidumbre de Heisenberg                     |");
+                    System.out.println("|2. Soluciones de la ecuación de Schrödinger                |");
+                    System.out.println("|3. Números cuánticos               |");
+                    System.out.println("|4. Cuarto número cuántico (Spin)               |");
+                    System.out.println("|5. Número cuántico principal n               |");
+                    System.out.println("|6. Valores posibles de n               |");
+                    System.out.println("|7. Número cuántico secundario l               |");
+                    System.out.println("|8. Valores de l               |");
+                    System.out.println("|9. Letras asignadas a l               |");
+                    System.out.println("|10. Forma de los orbitales s y p                |");
+                    System.out.println("|11. Número cuántico magnético m                |");
+                    System.out.println("|12. Valores de m                |");
+                    System.out.println("|13. Número cuántico spin ms                |");
+                    System.out.println("|14. Valores de ms                |");
+                    System.out.println("|15. ¿Qué es un orbital?                |");
+                    System.out.println("|16. Diferencia entre nivel, subnivel y orbital                |");
+                    System.out.println("|0. Regresar al menu principal                             |");
+                    System.out.println("---------------------------------------");
+                    System.out.println("| Elige una opción:             |");
+                    System.out.println("=======================================");
+                    int opcionesp= sc.nextInt();
+
+                    switch(opcionesp){
+                        case 1:
+                            limpiarPantalla();
+                            System.out.println("=======================================");
+                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
+                            System.out.println("=======================================");
+                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
+                            System.out.println("|             |");
+                            System.out.println("|                         |");
+                            System.out.println("=======================================");
+                            esperarTecla();
+
+                            break;
+                        case 2:
+                            limpiarPantalla();
+                            System.out.println("=======================================");
+                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
+                            System.out.println("=======================================");
+                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
+                            System.out.println("|             |");
+                            System.out.println("|                         |");
+                            System.out.println("=======================================");
+                            esperarTecla();
+                            break;
+                        case 3:
+                            limpiarPantalla();
+                            System.out.println("=======================================");
+                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
+                            System.out.println("=======================================");
+                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
+                            System.out.println("|             |");
+                            System.out.println("|                         |");
+                            System.out.println("=======================================");
+                            esperarTecla();
+                            break;
+                        case 4:
+                            limpiarPantalla();
+                            System.out.println("=======================================");
+                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
+                            System.out.println("=======================================");
+                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
+                            System.out.println("|             |");
+                            System.out.println("|                         |");
+                            System.out.println("=======================================");
+                            esperarTecla();
+                            break;
+                        case 5:
+                            limpiarPantalla();
+                            System.out.println("=======================================");
+                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
+                            System.out.println("=======================================");
+                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
+                            System.out.println("|             |");
+                            System.out.println("|                         |");
+                            System.out.println("=======================================");
+                            esperarTecla();
+                            break;
+                        case 6:
+                            limpiarPantalla();
+                            System.out.println("=======================================");
+                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
+                            System.out.println("=======================================");
+                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
+                            System.out.println("|             |");
+                            System.out.println("|                         |");
+                            System.out.println("=======================================");
+                            esperarTecla();
+                            break;
+                        case 7:
+                            limpiarPantalla();
+                            System.out.println("=======================================");
+                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
+                            System.out.println("=======================================");
+                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
+                            System.out.println("|             |");
+                            System.out.println("|                         |");
+                            System.out.println("=======================================");
+                            esperarTecla();
+                            break;
+                        case 8:
+                            limpiarPantalla();
+                            System.out.println("=======================================");
+                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
+                            System.out.println("=======================================");
+                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
+                            System.out.println("|             |");
+                            System.out.println("|                         |");
+                            System.out.println("=======================================");
+                            esperarTecla();
+                            break;
+                        case 9:
+                            limpiarPantalla();
+                            System.out.println("=======================================");
+                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
+                            System.out.println("=======================================");
+                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
+                            System.out.println("|             |");
+                            System.out.println("|                         |");
+                            System.out.println("=======================================");
+                            esperarTecla();
+                            break;
+                        case 10:
+                            limpiarPantalla();
+                            System.out.println("=======================================");
+                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
+                            System.out.println("=======================================");
+                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
+                            System.out.println("|             |");
+                            System.out.println("|                         |");
+                            System.out.println("=======================================");
+                            esperarTecla();
+                            break;
+                        case 11:
+                            limpiarPantalla();
+                            System.out.println("=======================================");
+                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
+                            System.out.println("=======================================");
+                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
+                            System.out.println("|             |");
+                            System.out.println("|                         |");
+                            System.out.println("=======================================");
+                            esperarTecla();
+                            break;
+                        case 12:
+                            limpiarPantalla();
+                            System.out.println("=======================================");
+                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
+                            System.out.println("=======================================");
+                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
+                            System.out.println("|             |");
+                            System.out.println("|                         |");
+                            System.out.println("=======================================");
+                            esperarTecla();
+                            break;
+                        case 13:
+                            limpiarPantalla();
+                            System.out.println("=======================================");
+                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
+                            System.out.println("=======================================");
+                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
+                            System.out.println("|             |");
+                            System.out.println("|                         |");
+                            System.out.println("=======================================");
+                            esperarTecla();
+                            break;
+                        case 14:
+                            limpiarPantalla();
+                            System.out.println("=======================================");
+                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
+                            System.out.println("=======================================");
+                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
+                            System.out.println("|             |");
+                            System.out.println("|                         |");
+                            System.out.println("=======================================");
+                            esperarTecla();
+                            break;
+                        case 15:
+                            limpiarPantalla();
+                            System.out.println("=======================================");
+                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
+                            System.out.println("=======================================");
+                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
+                            System.out.println("|             |");
+                            System.out.println("|                         |");
+                            System.out.println("=======================================");
+                            esperarTecla();
+                            break;
+                        case 16:
+                            limpiarPantalla();
+                            System.out.println("=======================================");
+                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
+                            System.out.println("=======================================");
+                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
+                            System.out.println("|             |");
+                            System.out.println("|                         |");
+                            System.out.println("=======================================");
+                            esperarTecla();
+                            break;
+                        case 0:
+                            break;
+                        default:System.out.println("Opción no válida.");
+                    }
                     break;
                 case 2:
+                    limpiarPantalla();
+                    System.out.println("==========================================");
+                    System.out.println("|          === Bibliografía ===          |");
+                    System.out.println("=============================================");
+                    System.out.println("| Chang, R. (Química General). McGraw-Hill, 2010.                                                               |");
+                    System.out.println("| Brown, T. L., LeMay, H. E., Bursten, B. E. (Química: La Ciencia Central). Pearson, 2012.                                                          |");
+                    System.out.println("| Atkins, P., & Jones, L. (Principios de Química). Oxford, 2010.                                                                       |");
+                    System.out.println("| Tipler, P. A., & Mosca, G. (Física para Ciencias e Ingeniería).                                                                       |");
+                    System.out.println("| Einstein, A. (Teoría de la Relatividad).                                                                       |");
+                    System.out.println("=====================================================");
+                    esperarTecla();
                     break;
-                case 3:
-                    break;
-                case 4:
-                    break;
-                case 5:
-                    break;
-                case 6:
-                    break;
-                case 7:
-                    break;
-                case 8:
-                    break;
-                case 9:
+
+                case 0:
                     break;
                 default:
+                    System.out.println("Opción no válida.");
             }
         }  while(opcion != 0);
     }
